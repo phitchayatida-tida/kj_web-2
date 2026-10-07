@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>for my favorite graduate ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#171717;--muted:#77716c;--paper:#fffdf9;--cream:#f5f0e9;--pink:#e9c8d2;--line:#e9e1d9}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 20% 10%,#fff 0,#f7f1eb 35%,#eee7df 100%);color:var(--ink);font-family:"DM Sans",sans-serif;overflow-x:hidden}
+.screen{min-height:100svh;display:flex;align-items:center;justify-content:center;padding:24px}
+.card{width:min(440px,100%);min-height:760px;background:var(--paper);border:1px solid rgba(0,0,0,.05);border-radius:34px;box-shadow:0 24px 70px rgba(48,36,28,.14);padding:26px 22px 56px;position:relative;overflow:hidden}
+.card:before,.card:after{content:"";position:absolute;border-radius:50%;pointer-events:none;filter:blur(2px)}
+.card:before{width:180px;height:180px;background:rgba(233,200,210,.22);right:-80px;top:-65px}.card:after{width:150px;height:150px;background:rgba(215,198,171,.18);left:-85px;bottom:80px}
+.page{position:relative;z-index:2;animation:fade .45s ease}.hidden{display:none!important}
+.hero{min-height:670px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:10px 6px}
+.kicker{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);font-weight:700}
+h1{font-family:"Playfair Display",serif;font-size:62px;line-height:.92;letter-spacing:-2px;margin:18px 0 16px}
+h1 em{font-weight:600}
+h2{font-family:"Playfair Display",serif;font-size:34px;line-height:1.02;letter-spacing:-.7px;margin:8px 0 16px}
+p{line-height:1.72;margin:8px 0}.lead{font-size:15px;color:#514c47}.tiny{font-size:11px;color:var(--muted);letter-spacing:.3px}
+.btn{border:0;background:var(--ink);color:#fff;padding:14px 21px;border-radius:999px;font-size:13px;font-weight:700;cursor:pointer;margin-top:22px;transition:.2s;box-shadow:0 8px 18px rgba(0,0,0,.12)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 11px 22px rgba(0,0,0,.16)}
+.topline{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;color:var(--muted);font-size:10px;letter-spacing:1.8px;text-transform:uppercase}
+.photo{width:100%;height:300px;object-fit:cover;border-radius:24px;display:block;margin:12px 0 14px;box-shadow:0 12px 30px rgba(0,0,0,.12)}
+.photo.one{object-position:center 53%}.photo.two{height:360px;object-position:center 47%}
+
+.grad-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:9px;margin:12px 0 14px}
+.grad-main,.grad-side img{width:100%;display:block;object-fit:cover;border-radius:18px;box-shadow:0 10px 25px rgba(0,0,0,.11)}
+.grad-main{height:405px}
+.grad-side{display:grid;grid-template-rows:1fr 1fr;gap:9px}
+.grad-side img{height:198px}
+.caption{font-size:11px;color:var(--muted);margin:0 2px 18px}
+.quote{font-family:"Playfair Display",serif;font-style:italic;font-size:20px;line-height:1.35;margin:18px 0;color:#3d3834}
+.divider{height:1px;background:var(--line);margin:22px 0}
+.note{background:#f7f1ea;border-radius:22px;padding:20px 18px;margin-top:18px}
+.note p{font-size:14px;color:#413c38}.signature{font-family:"Playfair Display",serif;font-size:24px;margin-top:20px}
+.pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:7px 11px;font-size:10px;color:var(--muted);margin-top:8px}
+.footer{position:absolute;bottom:18px;left:0;right:0;text-align:center;font-size:10px;color:#aaa;z-index:3}
+.dots{display:flex;gap:6px;justify-content:center;margin-top:20px}.dot{width:5px;height:5px;border-radius:50%;background:#d8d0c8}.dot.active{width:18px;border-radius:10px;background:#1d1d1d}
+.confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:5}.confetti i{position:absolute;width:6px;height:12px;border-radius:2px;opacity:.8;animation:fall 3.8s linear forwards}
+@keyframes fall{0%{transform:translateY(-30px) rotate(0)}100%{transform:translateY(800px) rotate(600deg);opacity:0}}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(max-width:380px){h1{font-size:54px}.card{padding-left:18px;padding-right:18px}.photo.two{height:320px}}
+
+/* --- Gen-Z scrapbook refresh --- */
+:root{
+  --paper:#fbf7ef;
+  --ink:#252337;
+  --pink:#ff7eb6;
+  --lilac:#b9a7ff;
+  --yellow:#ffd85c;
+  --blue:#9ddcff;
+}
+body{background:#e9e4f4!important;color:var(--ink)!important}
+.page{background:var(--paper)!important;position:relative;overflow:hidden}
+.page:before{
+  content:"✦  ♡  ☆  ✦  ♡";position:absolute;top:14px;right:18px;
+  font-size:15px;letter-spacing:7px;color:var(--pink);transform:rotate(5deg);opacity:.9
+}
+.page:after{
+  content:"";position:absolute;inset:9px;border:1.5px dashed rgba(37,35,55,.14);
+  border-radius:24px;pointer-events:none
+}
+.topline{font-size:10px!important;letter-spacing:.08em}
+h1,h2{letter-spacing:-.045em!important}
+.btn{
+  border-radius:999px!important;background:var(--ink)!important;color:#fff!important;
+  box-shadow:4px 4px 0 var(--pink)!important;transform:rotate(-1deg);
+}
+.note{
+  background:#fff!important;border:1px solid #e6dfd3!important;
+  box-shadow:5px 6px 0 rgba(185,167,255,.42)!important;
+  transform:rotate(-1deg);position:relative
+}
+.note:before{
+  content:"";position:absolute;top:-9px;left:28px;width:62px;height:19px;
+  background:rgba(255,126,182,.55);transform:rotate(-4deg)
+}
+.pair-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0 16px}
+.pair-grid img{
+  width:100%;height:310px;object-fit:cover;border-radius:7px;
+  border:7px solid white;box-shadow:0 8px 0 rgba(37,35,55,.08),0 14px 25px rgba(37,35,55,.12)
+}
+.pair-grid img:first-child{transform:rotate(-3deg)}
+.pair-grid img:last-child{transform:rotate(3deg)}
+.caption{
+  display:inline-block;background:var(--yellow);padding:5px 10px;
+  transform:rotate(-2deg);font-size:11px!important;color:var(--ink)!important
+}
+.grad-grid{position:relative;z-index:1}
+.grad-main{border:7px solid #fff!important;transform:rotate(2deg);box-shadow:8px 8px 0 rgba(157,220,255,.6)!important}
+.grad-side img{border:6px solid #fff!important}
+
+
+.mini-memory{margin:4px auto 18px;display:flex;align-items:center;gap:10px;width:max-content;
+  max-width:92%;background:#fff;border:5px solid #fff;box-shadow:4px 5px 0 rgba(255,216,92,.8);
+  transform:rotate(2deg);padding:0 8px 0 0;border-radius:5px}
+.mini-memory img{width:82px;height:62px;object-fit:cover}
+.mini-memory span{font-size:10px;font-weight:700;padding-left:10px}
+
+</style>
+</head>
+<body>
+<div class="screen">
+<main class="card">
+  <div class="confetti" id="confetti"></div>
+
+  <section id="p1" class="page hero">
+    <div class="kicker">a tiny website for someone very special</div>
+    <h1>you did it,<br><em>KJ.</em> 🎓</h1>
+    <p class="lead">and yes, I’m ridiculously proud of you. like, SO proud.</p>
+    <span class="pill">a tiny corner of the internet, just for you ♡</span>
+    <button class="btn" onclick="next(2)">open this →</button>
+    <div class="dots"><i class="dot active"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i></div>
+  </section>
+
+  <section id="p2" class="page hidden">
+    <div class="topline"><span>01 / us</span><span>favorite people</span></div>
+    <h2>One thing I’ll always be grateful for:</h2>
+    <img class="photo one" src="IMG_4111.JPG" alt="A friendship memory">
+    <p class="caption">just us, being us ♡</p>
+    <p class="quote">“I hope you know how proud I am of the person you’ve become.”</p>
+    <p class="lead">There are so many memories, random laughs, stupid little moments, and somehow… here we are, celebrating <b>you</b>.</p>
+    <button class="btn" onclick="next(3)">keep going →</button>
+    <div class="dots"><i class="dot"></i><i class="dot active"></i><i class="dot"></i><i class="dot"></i></div>
+  </section>
+
+  <section id="p3" class="page hidden">
+    <div class="topline"><span>02 / this moment</span><span>the graduate ♡</span></div>
+    <h2>okay but…<br>LOOK AT YOU.</h2>
+    <div class="grad-grid">
+      <img class="grad-main" src="kj1.jpeg" alt="KJ celebrating graduation">
+      <div class="grad-side">
+        <img src="kj2.jpeg" alt="KJ in graduation gown">
+        <img src="kj3.jpeg" alt="KJ celebrating with a congrats sign">
+      </div>
+    </div>
+    <p class="caption">main character energy. obviously.</p>
+    <div class="note">
+      <p><b>Congratulations, KJ.</b> 🎓</p>
+      <p>You’ve worked so hard to get here, and I hope you know how incredibly proud I am of you.</p>
+      <p>You’ve done so, so well. Seriously. <b>Look at you — you made it.</b></p>
+    </div>
+    <button class="btn" onclick="next(4)">one last thing →</button>
+    <div class="dots"><i class="dot"></i><i class="dot"></i><i class="dot active"></i><i class="dot"></i></div>
+  </section>
+
+<section id="p4" class="page hidden center">
+    <div class="topline"><span>03 / from me to you</span><span>always ♡</span></div>
+    <h2>for my favorite graduate</h2>
+    <div class="note" style="text-align:left">
+      <p>I’m genuinely so proud of you.</p>
+      <p>No matter where life takes you next, I hope you keep being exactly who you are — kind, funny, a little chaotic, and very, very capable.</p>
+      <p>I’m lucky to have you as my friend, and I’ll always be cheering for you from the front row (even if I’m being annoying about it).</p>
+      <p><b>Love you. Congrats, you did it. 🥹🎓</b></p>
+      <div class="signature">— Tida ♡</div>
+    </div>
+    <p class="tiny" style="margin-top:22px">here’s to the next chapter & all the good things coming your way.</p>
+    <button class="btn" onclick="replay()">read it again ↺</button>
+    <div class="dots"><i class="dot"></i><i class="dot"></i><i class="dot"></i><i class="dot active"></i></div>
+  </section>
+
+  <div class="footer">made with too much love for KJ ♡</div>
+</main>
+</div>
+<script>
+function next(n){
+  document.querySelectorAll('.page').forEach(x=>x.classList.add('hidden'));
+  document.getElementById('p'+n).classList.remove('hidden');
+  if(n===4) makeConfetti();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function replay(){
+  document.querySelectorAll('.page').forEach(x=>x.classList.add('hidden'));
+  document.getElementById('p1').classList.remove('hidden');
+}
+function makeConfetti(){
+  const box=document.getElementById('confetti'); box.innerHTML='';
+  const shapes=['#171717','#d7b2bf','#c9b18f','#8b9aa6','#eee3d6'];
+  for(let i=0;i<42;i++){
+    const el=document.createElement('i');
+    el.style.left=(Math.random()*100)+'%';
+    el.style.top=(-Math.random()*25)+'px';
+    el.style.background=shapes[Math.floor(Math.random()*shapes.length)];
+    el.style.animationDelay=(Math.random()*1.2)+'s';
+    el.style.transform=`rotate(${Math.random()*180}deg)`;
+    box.appendChild(el);
+  }
+}
+</script>
+</body>
+</html>
